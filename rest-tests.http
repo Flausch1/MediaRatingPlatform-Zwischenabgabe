@@ -1,0 +1,16 @@
+# Integration-Tests 
+
+
+### Hello World
+GET http://localhost:8080/hello?world
+
+### Known city
+GET http://localhost:8080/weather?city=Vienna
+
+
+### Unknown city
+GET http://localhost:8080/weather?city=Tokyo
+
+
+### Missing parameter
+GET http://localhost:8080/weather
